@@ -18,5 +18,6 @@ int main() {
 	value = 2;
 	calc->IsOdd(value);
 	delete calc;
+	cout << "Done" << endl;
 	return 0;
 }
