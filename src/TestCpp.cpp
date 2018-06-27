@@ -17,10 +17,6 @@ int main() {
 	calc->IsOdd(value);
 	value = 2;
 	calc->IsOdd(value);
-	value = 2445789;
-	calc->IsOdd(value);
-	value = -1;
-	calc->IsOdd(value);
 	delete calc;
 	cout << "Done" << endl;
 	return 0;
